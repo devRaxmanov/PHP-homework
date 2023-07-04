@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #eeefda;
+    padding: 50px 0;
+}
+.title{
+    font-family: "Arial Black";
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .7);
+}
+.exampleCard{
+    transition: all .5s ease;
+}
+.exampleCard:hover{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .7);
+    transform: translateY(-10px);
+}
