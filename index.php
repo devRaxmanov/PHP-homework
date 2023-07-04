@@ -22,7 +22,12 @@
                     <div class="card exampleCard">
                         <div class="card-header">1-misol</div>
                         <div class="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, totam!
+                            <form>
+                                <input type="text" class="form-control mb-3">
+                                <input type="text" class="form-control mb-3">
+                                <input type="text" class="form-control mb-3">
+                                <button class="btn btn-success w-100">Tekshirish</button>
+                            </form>
                         </div>
                         <div class="card-footer">
                             Natija:
